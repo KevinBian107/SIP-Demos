@@ -37,4 +37,5 @@ dependencies:
     - otter-grader==3.1.4
     - pandas_tutor
     - ipywidgets
+    - ucimlrepo
 
