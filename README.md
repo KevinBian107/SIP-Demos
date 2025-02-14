@@ -25,10 +25,14 @@ Decision making (non-parametric):
 Tetsing assumptions:
 - Doe our assumption even make sense for us to do parametric test?
     - **Checking Independent + Identical**: QQ-plot, autocorrelation & Ljung-Box test
-- Week5 and week6 notebook
+- Week5 notebook
 
+Linear Regression analysis (LRA):
+- How much can we learn by just fitting a line? What analysis can we drawn from fitting a line? What assumptions do we need to hold to run this analysis?
+    - Different interpretations of LRA, interpretations of models and coefficients, anatomy of LRA (what you can get out of it), what assumptions do we need to hold to use LRA, unusual observations in LRA, categorical LRA, multi-dimensional LRA
+- Week 6 notebook
 
-
+## Convcersions
 Convert notebook by:
 
 ```bash
