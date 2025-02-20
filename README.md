@@ -29,8 +29,23 @@ Non of the demos here are meant for an deep tour into all the mathamatical detai
 
 > ### Linear regression analysis (LRA):
 - How much can we learn by just fitting a line? What analysis can we drawn from fitting a line? What assumptions do we need to hold to run this analysis?
-    - Different interpretations of LRA, interpretations of models and coefficients, anatomy of LRA (what you can get out of it), what assumptions do we need to hold to use LRA, unusual observations in LRA, categorical LRA, multi-dimensional LRA
+    - Different **interpretations** of LRA, interpretations of models and coefficients, anatomy of LRA (what you can get out of it), what **assumptions** do we need to hold to use LRA, unusual observations in LRA, categorical LRA, multi-dimensional LRA
 - Week 6 notebook
+
+> ### Linear regression coefficients tests:
+- How can we do uncertainty quantification with this LRA that we have fitted? How can we utilize these coefficients that we have fitted?
+    - Examing effects of particular variable through **individual coefficeint** (linear hypothesis testing), analysis of varaince by making a smaller model (**ANOVA**), general linear hypothesis testing
+- Week 7 notebook
+
+> ### Interaction covariates:
+- What happens when we have non-linear data and we may want to fit something that is more than linear?
+    - Transformations, **interaction terms** and their theoritical constructs, multicolinearity
+- Week 7 notebook
+
+> ### Categorical responses:
+- What if we don't wan to model a continuous response? Then LRA fails, we need to have a different way to formulate  model with LRA?
+    - Modeling **odds**, logistics functions
+- Week 7 & 8 notebooks
 
 ## Convcersions
 Convert notebook by:
