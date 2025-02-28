@@ -48,8 +48,8 @@ Non of the demos here are meant for an deep tour into all the mathamatical detai
 - Week 7 & 8 notebooks
 
 > ### Variable selections:
-- How doe we choose what variable to use? We can do ANOVA, but can we do something more general and more systematic?
-    - selection criterions (modified $R^2$, AIC/BIC, cross validation), stepwise (forward/backward) selection, anotehr perspective of regularizatin an  shrinking
+- How doe we choose what variable to use? We can do ANOVA (this requires all possible subsets, this is not good computationally), but can we do something more general and more systematic?
+    - Selection criterions (adjusted $R^2$ to number of predictors, AIC/BIC, cross validation), stepwise (forward/backward) selection, anotehr perspective of regularizatin an  shrinking
 - Week 8 & 9 notebooks
 
 ## Convcersions
