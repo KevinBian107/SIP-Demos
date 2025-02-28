@@ -44,8 +44,13 @@ Non of the demos here are meant for an deep tour into all the mathamatical detai
 
 > ### Categorical responses:
 - What if we don't wan to model a continuous response? Then LRA fails, we need to have a different way to formulate  model with LRA?
-    - Modeling **odds**, logistics functions
+    - Modeling **odds**, logistics functions, interpretation of coefficients, logistic assumptions, fitting logistic as for MLE for bernulli distribution, fit of model (heuristic, confusion matrix, ROC), multi-nomial logistics
 - Week 7 & 8 notebooks
+
+> ### Variable selections:
+- How doe we choose what variable to use? We can do ANOVA, but can we do something more general and more systematic?
+    - selection criterions (modified $R^2$, AIC/BIC, cross validation), stepwise (forward/backward) selection, anotehr perspective of regularizatin an  shrinking
+- Week 8 & 9 notebooks
 
 ## Convcersions
 Convert notebook by:
