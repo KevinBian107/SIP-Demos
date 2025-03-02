@@ -1,9 +1,11 @@
 # Statistical Inference Pipeline Demos (SIP-Demos)
 This repo comes from my UCSD Math 189 notes, adapted from professor Siddharth Vishwanath in UCSD's math department. It involves many really good and intuitive visualzied demonstration of different `ideas in statistics`, which is really good for education purposes.
 
-Non of the demos here are meant for an deep tour into all the mathamatical details in statistics, but rather a visual demonstartion of them and how to use them, which includes techniques that has theoritical roots in an arange of UCSD Math classes (Math 181A, Math 181B, Math 181E)
+None of the demos here are meant for an deep tour into all the mathamatical details in statistics, but rather a visual demonstartion of them and how to use them, which includes techniques that has theoritical roots in an arange of UCSD Math/Statistics classes (Math 181A, Math 181B, Math 181E)
 
 ## Schematics of SIP 🧑‍🔬
+
+One key need for statsitical inference pipeline, different from both data analysis & machine learning, is that it needs to make predictions and inferences about th true population from looking at samples of it (unlike data analysis of just drawing conclusion) while maintaining the interpretability and understandability of it (unlike ML or DL). Hence, a major work in SIP is to constructs different forms of **assumptions** and **Interpretations** of the model.
 
 > ### Fundamentals 🔢
 - Covers basic linear algebra and probability that is important for statistics
@@ -52,7 +54,7 @@ Non of the demos here are meant for an deep tour into all the mathamatical detai
 > ### LRA Categorical responses 📊
 - What if we don't wan to model a continuous response? Then LRA fails, we need to have a different way to formulate  model with LRA?
     - Modeling **odds**: logistics functions, interpretation of logistic coefficients (just like LRA), logistic assumptions, fitting logistic as for MLE for bernulli distribution
-    - Logistci **in practice**: fit of logistic model (heuristic, confusion matrix, ROC), multi-nomial logistics
+    - Logistci **in practice**: fit of logistic model (heuristic, confusion matrix, ROC), multinomial logistics regression, interprettaion of multinomial logistic regression and marginal effects
 - Week 7 & 8 notebooks
 
 > ### Variable selections 📊
