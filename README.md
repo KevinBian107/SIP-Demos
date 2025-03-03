@@ -4,7 +4,6 @@ This repo comes from my UCSD Math 189 notes, adapted from professor Siddharth Vi
 None of the demos here are meant for an deep tour into all the mathamatical details in statistics, but rather a visual demonstartion of them and how to use them, which includes techniques that has theoritical roots in an arange of UCSD Math/Statistics classes (Math 181A, Math 181B, Math 181E)
 
 ## Schematics of SIP 🧑‍🔬
-
 One key need for statsitical inference pipeline, different from both data analysis & machine learning, is that it needs to make predictions and inferences about th true population from looking at samples of it (unlike data analysis of just drawing conclusion) while maintaining the interpretability and understandability of it (unlike ML or DL). Hence, a major work in SIP is to constructs different forms of **assumptions** and **Interpretations** of the model.
 
 > ### Fundamentals 🔢
@@ -14,10 +13,11 @@ One key need for statsitical inference pipeline, different from both data analys
 - Week 1, week 2, and week 3 notebooks
 
 > ### Decision making (parametric) 🤔
-- How do we make certain decisions when facing two alternative choices, we construct ideas from theroitical probability about how the world would look like under the hood if it is random (assuming LLN & CLT)
+- How do we make certain decisions when facing two alternative choices, we construct ideas from theroitical probability about how the world would look like under the hood if it is random (assuming LLN & CLT), then approach our testing statistics towards such distribution seeing if there is a significant differences between the reality sample and the theory.
     - **Continuous random variable inference**: Confidence intervals, hypothesis tetsing, p-values, various test statistics
     - **Categorical random variable inference**: goodness of fit, test for independence, homogenity
     - **Moving towards more general form of testing**: MLE & likelihood ratio test
+- Parametric test will turns out to be very useful if we want to do test on LRA, which need assumptions to be hold, but if so, we can do a lot of tests to see teh significance of the coefficients.
 - Week 3 and week 4 notebooks
 
 > ### Decision making (non-parametric) 🤔
