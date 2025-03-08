@@ -63,3 +63,18 @@ One key need for statsitical inference pipeline, different from both data analys
     - **Stepwise selection**: forward, backward, and mix selection
     - **Shrinking methods**: anotehr perspective of regularizatin and shrinking
 - Week 8 & 9 notebooks
+
+> ### Principal component analysis (PCA) 📚
+- We have been doing supervised statistical inference for quite a while, but how do we find some interesting things when labels are not available?
+    - **PCA Intuition**: deriving an optimization problem from statistical perspective and solving it with singular value decomposition
+    - **Characteristic of PCA**: standardlize data PCA = covaraiate matrix PCA, addressing multicolinearity with principal component regression (PCR)
+- Week 9 notebook
+
+> ### Statsitical learning theory 🔢
+- We will be looking at everything we have down from a more unifying perspective of statistical learning theory, this is also more familairily as **Empirical Risk Minimization (ERM)** used in most traditional machine elarning perspectives.
+    - **Predictive intervals**: all of the previous model are creating manifolds on the data` by using parameter,can we test uncertainty on the predictions directly?
+        - Confidence intervals of response in expectation
+        - Prediction interval of individual response
+    - **Statistical learning**
+    - **Conformal inference**: Can we construct prediction/confidence indtervals for blackbox models?
+- Week 10 notebook
