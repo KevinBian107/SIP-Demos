@@ -6,7 +6,7 @@ None of the demos here are meant for an deep tour into all the mathamatical deta
 ## Schematics of SIP 🧑‍🔬
 One key need for statsitical inference pipeline, different from both data analysis & machine learning, is that it needs to make predictions and inferences about th true population from looking at samples of it (unlike data analysis of just drawing conclusion) while maintaining the interpretability and understandability of it (unlike ML or DL). Hence, a major work in SIP is to constructs different forms of **assumptions** and **Interpretations** of the model.
 
-The [CyberSecurity](/SIP-Demos/CyberSecurity.ipynb) notebook is an real-life demonstration notebook for theSIP techniques decribed in this repo.
+The [CyberSecurity](/CyberSecurity.ipynb) notebook is an real-life demonstration notebook for theSIP techniques decribed in this repo.
 
 > ### Fundamentals 🔢
 - Covers basic linear algebra and probability that is important for statistics
